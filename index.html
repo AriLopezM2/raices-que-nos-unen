@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#101b2b" />
+  <meta name="description" content="Raíces que nos unen: aprende historia de Nicaragua explorando etapas y compitiendo con amigos." />
+  <title>Raíces que nos unen | Historia en juego</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="learning.css" />
+</head>
+<body>
+  <svg class="svg-sprite" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2.3 4.7-4.7 2.3 2.3-4.7z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14m-6-6 6 6-6 6"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m9 6 6 6-6 6"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5m6 6-6-6 6-6"/></symbol>
+    <symbol id="i-users" viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3 20v-2a6 6 0 0 1 12 0v2M17 5a3 3 0 0 1 0 6m1 4a5 5 0 0 1 3 5"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M12 6c-3-2-6-2-10-1v14c4-1 7-1 10 1m0-14c3-2 6-2 10-1v14c-4-1-7-1-10 1m0-14v14"/></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 22V3m0 1c5-3 8 3 14 0v11c-6 3-9-3-14 0"/></symbol>
+    <symbol id="i-trophy" viewBox="0 0 24 24"><path d="M7 3h10v6a5 5 0 0 1-10 0V3zm0 2H3v3a4 4 0 0 0 4 4m10-7h4v3a4 4 0 0 1-4 4m-5 2v4m-5 3h10m-8-3h6"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="m8 5 12 7-12 7V5z"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="m4 12 5 5L20 6"/></symbol>
+    <symbol id="i-link" viewBox="0 0 24 24"><path d="M10 13a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-2 2m3 6a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l2-2"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 2 4 5v6c0 5 3 8 8 11 5-3 8-6 8-11V5z"/><path d="m8 12 3 3 5-6"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v3m0 14v3M2 12h3m14 0h3M5 5l2 2m10 10 2 2M19 5l-2 2M7 17l-2 2"/></symbol>
+    <symbol id="i-landmark" viewBox="0 0 24 24"><path d="m2 9 10-6 10 6H2zm2 2v8m5-8v8m6-8v8m5-8v8M2 22h20M2 19h20"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24"><path d="m12 2 3 6 7 1-5 5 1 7-6-3-6 3 1-7-5-5 7-1z"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24"><path d="M5 5 19 19M19 5 5 19"/></symbol>
+    <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v6m0-10v1"/></symbol>
+  </svg>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <button class="brand" data-action="home" aria-label="Ir al inicio">
+        <span class="brand-mark"><svg class="icon"><use href="#i-compass"/></svg></span>
+        <span class="brand-type"><strong>RAÍCES</strong><small>QUE NOS UNEN</small></span>
+      </button>
+      <nav class="desktop-nav" aria-label="Menú principal">
+        <button class="nav-link active" data-route="home">Inicio</button>
+        <button class="nav-link" data-route="academy">Unidad I</button>
+        <button class="nav-link" data-route="play">Desafíos</button><button class="nav-link" data-route="progress">Mi progreso</button>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn-outline btn-small" data-action="join">Unirse a partida</button>
+        <button class="mobile-menu" id="mobile-menu" aria-label="Abrir navegación"><svg class="icon"><use href="#i-menu"/></svg></button>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobile-nav"><button data-route="home">Inicio</button><button data-route="academy">Unidad I</button><button data-route="play">Desafíos</button><button data-route="progress">Mi progreso</button><button data-action="join">Unirse a partida</button></div>
+  </header>
+  <main id="app" class="app-root"></main>
+  <footer class="site-footer"><div class="wrap footer-content"><span><svg class="icon"><use href="#i-compass"/></svg> Raíces que nos unen</span><span>Historia de Nicaragua, contada de otra manera.</span><span>Prototipo académico independiente · Unidad I</span></div></footer>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+  <script src="learning.js"></script>
+</body>
+</html>

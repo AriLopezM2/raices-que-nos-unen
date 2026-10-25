@@ -1,0 +1,14 @@
+{
+  "name": "raices-que-nos-unen",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Prototipo educativo de Historia e Identidad Nacional de Nicaragua (Unidad I)",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
